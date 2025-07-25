@@ -1,15 +1,22 @@
-export const relationshipMatrix = {
-  npcName: {
-    bond: 75,
-    rivalry: 10,
-    lastEvent: "cookOffWin",
-    traitAffinityBoosts: { sweet: +0.2 },
-    cooldowns: {
-      anger: 3, // days until reset
-      admiration: 7
-    }
-  }
-};
+// relationshipMatrix.js
+export const relationshipMatrix = {};
+
+export function updateRelationship(npc, effect) {
+  if (!relationshipMatrix[npc]) relationshipMatrix[npc] = { score: 0, log: [] };
+
+  let delta = 0;
+  if (effect === "positive") delta = 10;
+  else if (effect === "neutral") delta = 0;
+  else if (effect === "negative") delta = -10;
+
+  relationshipMatrix[npc].score += delta;
+  relationshipMatrix[npc].log.push({ effect, timestamp: Date.now() });
+}
+
+export function getRelationshipScore(npc) {
+  return relationshipMatrix[npc]?.score || 0;
+}
+
 export const traitImpactTags = {
   publicPraise: { sweet: +0.1, blunt: -0.1 },
   betrayal: { loyal: -0.4, jaded: +0.3 },
