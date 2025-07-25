@@ -1,0 +1,12 @@
+{
+  "city": "Manila",
+  "region": "Luzon",
+  "emoji": "🚦",
+  "flavor": "Chaotic charm, street snacks, and history stacked like condos.",
+  "moodlet": "Overstimulated",
+  "npcDensity": "Very High",
+  "events": ["Jeepney Jam", "Intramuros Intrigue", "Sidewalk Serenade"],
+  "fastTravel": ["Baguio", "Laguna"],
+  "traits": ["Ambitious", "Streetwise"],
+  "starterRibbon": "Urban Warrior"
+}
