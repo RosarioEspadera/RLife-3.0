@@ -1,0 +1,12 @@
+{
+  "city": "Iloilo",
+  "region": "Visayas",
+  "emoji": "🏺",
+  "flavor": "Ilonggo warmth, heritage homes, and sugar-sweet slow living.",
+  "moodlet": "Elegant",
+  "npcDensity": "Medium",
+  "events": ["Heritage Walk", "Batchoy Break", "River Lights"],
+  "fastTravel": ["Cebu", "Bacolod"],
+  "traits": ["Polite", "Creative"],
+  "starterRibbon": "Kultur Kid"
+}
