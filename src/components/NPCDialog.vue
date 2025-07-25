@@ -12,6 +12,16 @@
 import { computed } from 'vue';
 import { useGameStore } from '../store/gameState';
 import { generateNPCLine } from '../engine/data/dialogBuilder';
+import { checkMemoryUnlocks } from '../engine/data/relationshipEngine.js';
+
+const npcUnlocks = checkMemoryUnlocks(props.npc);
+
+if (npcUnlocks.includes('moonlitFairSideQuest')) {
+  dialogOptions.push({
+    label: "Let's revisit the fair tonight.",
+    trigger: "moonlitFairFlashback"
+  });
+}
 
 const game = useGameStore();
 const npcName = computed(() => game.activeNPC || "Migs");
