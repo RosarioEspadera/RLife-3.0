@@ -22,6 +22,9 @@ if (npcUnlocks.includes('moonlitFairSideQuest')) {
     trigger: "moonlitFairFlashback"
   });
 }
+if (checkMemoryUnlocks(npc).includes('moonlitFairSideQuest')) {
+  triggerScene('moonlitFairFlashback');
+}
 
 const game = useGameStore();
 const npcName = computed(() => game.activeNPC || "Migs");
