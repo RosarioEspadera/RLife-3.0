@@ -19,5 +19,10 @@ function recallEvent(npc, playerTrait) {
   } else if (memory) {
     return "You’ve been kinda loud since the fiesta, huh.";
   }
+  const clusters = getMemoryClusters(npc);
+if (clusters.some(c => c.tag === 'love')) {
+  return "We've been through so much. Remember our first palengke trip?";
+}
+
   return null;
 }
