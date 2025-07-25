@@ -11,7 +11,7 @@
 <script setup>
 import { computed } from 'vue';
 import { useGameStore } from '../store/gameState';
-import { generateNPCLine } from '../engine/data/dialogBuilder';
+import { generateNPCLine } from '../engine/data/dialogBuilder.js';
 import { checkMemoryUnlocks } from '../engine/data/relationshipEngine.js';
 
 const npcUnlocks = checkMemoryUnlocks(props.npc);
