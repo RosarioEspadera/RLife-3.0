@@ -14,6 +14,8 @@
 <script setup>
 import { useGameStore } from '../store/gameState';
 import { updateRelationship } from '../engine/data/relationshipMatrix';
+import { applyMoodlet } from '../engine/data/npcMoodlet';
+applyMoodlet(game.activeNPC, reply.effect);
 
 const game = useGameStore();
 const replies = game.currentReplies || [
