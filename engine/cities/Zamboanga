@@ -1,0 +1,12 @@
+{
+  "city": "Zamboanga",
+  "region": "Mindanao",
+  "emoji": "🧕",
+  "flavor": "Vinta sails, colorful Chavacano charm, and sea-bound stories.",
+  "moodlet": "Colorful",
+  "npcDensity": "Low",
+  "events": ["Vinta Voyage", "Chavacano Fiesta", "Fort Peace"],
+  "fastTravel": ["Tawi-Tawi", "Cotabato"],
+  "traits": ["Graceful", "Independent"],
+  "starterRibbon": "Lakay Explorer"
+}

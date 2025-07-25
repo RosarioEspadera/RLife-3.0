@@ -1,0 +1,12 @@
+{
+  "city": "Baguio",
+  "region": "Luzon",
+  "emoji": "🍓",
+  "flavor": "Misty pine air, ukay-ukay hunts, and strawberry picnics.",
+  "moodlet": "Cozy",
+  "npcDensity": "Medium",
+  "events": ["Ukay Treasure", "Strawberry Date", "Foggy Feels"],
+  "fastTravel": ["La Union", "Manila"],
+  "traits": ["Introspective", "Artistic"],
+  "starterRibbon": "Cool Climate Baby"
+}

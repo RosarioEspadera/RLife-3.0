@@ -1,0 +1,12 @@
+{
+  "city": "Cebu",
+  "region": "Visayas",
+  "emoji": "🌊",
+  "flavor": "Queen City vibes, lechon pride, and Sinulog soul.",
+  "moodlet": "Festive",
+  "npcDensity": "High",
+  "events": ["Sinulog Parade", "Lechon Feast", "Island Hopping"],
+  "fastTravel": ["Bohol", "Iloilo"],
+  "traits": ["Confident", "Sociable"],
+  "starterRibbon": "City Slicker"
+}
