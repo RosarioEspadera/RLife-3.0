@@ -12,3 +12,12 @@ function generateNPCLine(npc, event) {
 
   return line;
 }
+function recallEvent(npc, playerTrait) {
+  const memory = getRecentMemories(npc).find(mem => mem.emotionalTags.includes('publicPraise'));
+  if (memory && playerTrait === 'sweet') {
+    return "Still proud of your cook-off win. That kaldereta slapped. 😋";
+  } else if (memory) {
+    return "You’ve been kinda loud since the fiesta, huh.";
+  }
+  return null;
+}
