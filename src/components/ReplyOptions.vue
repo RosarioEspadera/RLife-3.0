@@ -23,6 +23,10 @@ const replies = game.currentReplies || [
   { text: "Wasn’t even trying tbh 😎", effect: "neutral" },
   { text: "You could’ve done better 🙄", effect: "negative" }
 ];
+const unlocked = checkMemoryUnlocks(npc);
+if (unlocked.includes('defensiveReplyOption')) {
+  options.push({ label: "Why are you always like this?", trait: "stubborn" });
+}
 
 function handleReply(reply) {
   updateRelationship(game.activeNPC, reply.effect);
