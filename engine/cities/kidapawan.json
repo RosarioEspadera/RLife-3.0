@@ -1,0 +1,12 @@
+{
+  "city": "Kidapawan",
+  "region": "Mindanao",
+  "emoji": "🐓",
+  "flavor": "Known for chicken festivals, kite fights, and bukid resilience.",
+  "moodlet": "Sunny",
+  "npcDensity": "Medium",
+  "events": ["Kite Fights", "Bukid Romance", "Tricycle Breakdown"],
+  "fastTravel": ["Davao", "Cotabato"],
+  "traits": ["Resilient", "Kenkoy"],
+  "starterRibbon": "Probinsya Baby"
+}
