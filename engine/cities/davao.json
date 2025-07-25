@@ -1,0 +1,12 @@
+{
+  "city": "Davao",
+  "region": "Mindanao",
+  "emoji": "🦅",
+  "flavor": "Mt. Apo stillness, durian bravery, and eagle-eye logic.",
+  "moodlet": "Grounded",
+  "npcDensity": "High",
+  "events": ["Durian Dilemma", "Eagle Encounter", "River Meditations"],
+  "fastTravel": ["Kidapawan", "Cebu"],
+  "traits": ["Stoic", "Respectful"],
+  "starterRibbon": "Apo Heir"
+}
