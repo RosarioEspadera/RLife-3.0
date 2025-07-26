@@ -25,6 +25,12 @@ if (npcUnlocks.includes('moonlitFairSideQuest')) {
 if (checkMemoryUnlocks(npc).includes('moonlitFairSideQuest')) {
   triggerScene('moonlitFairFlashback');
 }
+await supabase.from('npc_memory').insert({
+  npc_id: npcId,
+  player_id: playerId,
+  event_key: activeEvent,
+  emotional_tags: ['love', 'awkward']
+});
 
 const game = useGameStore();
 const npcName = computed(() => game.activeNPC || "Migs");
